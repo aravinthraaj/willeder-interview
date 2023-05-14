@@ -1,11 +1,12 @@
-import './styles/global.scss';
+import React from "react"
+import "./styles/global.scss"
 
-function App() {
+const App = () => {
   return (
     <div className="App">
-      Willeder Interview
+      <h1>Willeder Interview</h1>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
