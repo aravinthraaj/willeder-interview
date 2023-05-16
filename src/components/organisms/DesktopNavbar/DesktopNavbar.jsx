@@ -15,15 +15,13 @@ const DesktopNavbar = () => {
         <img src={logo} alt="Logo" />
       </div>
       <ul className="navbar__center">
-        {navLinks.map((list) => {
+        {navLinks.map((list,index) => {
           return (
-            <>
-              <Link href={list.link}>
-                <Text size="sm" key={list.text} className="list">
-                  {list.text}
-                </Text>
-              </Link>
-            </>
+            <Link href={list.link} key={`${list.text}${index}`}>
+              <Text size="sm" key={list.text} className="list">
+                {list.text}
+              </Text>
+            </Link>
           )
         })}
       </ul>

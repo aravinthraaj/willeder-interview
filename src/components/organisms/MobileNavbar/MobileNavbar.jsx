@@ -16,7 +16,7 @@ const MobileNavbar = () => {
   }
 
   return (
-    <nav className="mobile-navbar">
+    <nav className="mobile-navbar" id="mobilenavbar">
       <div className="nav-wrapper">
         <div className="logo">
           <img src={logo} alt="logo" />

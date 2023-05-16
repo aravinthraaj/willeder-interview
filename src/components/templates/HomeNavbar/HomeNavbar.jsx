@@ -6,7 +6,7 @@ import Button from "../../atoms/Button/Button"
 
 const HomeNavbar = ({ sections }) => {
   return (
-    <div className="homeNavbar">
+    <div className="homeNavbar" id="homenavbar">
       {sections.map((section) => (
         <Button
           key={section}

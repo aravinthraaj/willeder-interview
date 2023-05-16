@@ -16,9 +16,6 @@ const ServiceCard = ({ image, title, description, subTitle }) => {
           <Title size={3} className="title">
             {title}
           </Title>
-          <Title size={3} className="sub-title">
-            {subTitle}
-          </Title>
         </div>
       </div>
 
@@ -33,7 +30,6 @@ ServiceCard.propTypes = {
   image: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,
-  subTitle: PropTypes.string.isRequired,
 };
 
 export default ServiceCard

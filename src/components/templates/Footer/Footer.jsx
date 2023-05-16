@@ -14,13 +14,11 @@ const Footer = () => {
         <div className="footer__links">
           {footerLink.map((list) => {
             return (
-              <>
-                <Link href={list.link}>
-                  <Text size="sm" key={list.text}>
-                    {list.text}
-                  </Text>
-                </Link>
-              </>
+              <Link href={list.link} key={list.text}>
+                <Text size="sm" key={list.text}>
+                  {list.text}
+                </Text>
+              </Link>
             )
           })}
         </div>

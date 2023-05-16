@@ -13,7 +13,7 @@ const Section = ({ sectionId, children, ...props }) => {
 }
 
 Section.propTypes = {
-  sectionId: PropTypes.string.isRequired,
+  sectionId: PropTypes.string,
   children: PropTypes.node.isRequired,
 }
 
