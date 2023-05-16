@@ -12,16 +12,16 @@ const DesktopNavbar = () => {
       </div>
       <ul className="navbar__center">
         <li>
-          <a href="#">HOME</a>
+          <a href="/">HOME</a>
         </li>
         <li>
-          <a href="#">事業内容</a>
+          <a href="/">事業内容</a>
         </li>
         <li>
-          <a href="#">研究者紹介</a>
+          <a href="/">研究者紹介</a>
         </li>
         <li>
-          <a href="#">会社概要</a>
+          <a href="/">会社概要</a>
         </li>
       </ul>
       <div className="navbar__right">

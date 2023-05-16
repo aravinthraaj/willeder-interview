@@ -31,32 +31,32 @@ const MobileNavbar = () => {
       </div>
       <div className="links-wrapper">
         <div className={`mobile-navbar__links ${isOpen ? "open" : ""}`}>
-          <a href="#">
+          <a href="/">
             <div className="list">
               <Text size="md">Home</Text>
             </div>
           </a>
-          <a href="#">
+          <a href="/">
             <div className="list">
               <Text size="md">事業内容</Text>
             </div>
           </a>
-          <a href="#">
+          <a href="/">
             <div className="list">
               <Text size="md">研究者紹介</Text>
             </div>
           </a>
-          <a href="#">
+          <a href="/">
             <div className="list">
               <Text size="md">会社概要</Text>
             </div>
           </a>
-          <a href="#">
+          <a href="/">
             <div className="list">
               <Text size="md">JP / EN</Text>
             </div>
           </a>
-          <a href="#">
+          <a href="/">
             <div className="list">
               <Text size="md">閉じる</Text>
             </div>
