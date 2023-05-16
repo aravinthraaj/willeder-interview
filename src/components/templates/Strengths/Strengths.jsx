@@ -1,8 +1,9 @@
 import React from "react"
 import PropTypes from "prop-types"
+import "./Strengths.scss"
+
 import Section from "../../atoms/Section/Section"
 import Title from "../../atoms/Title/Title"
-import "./Strengths.scss"
 import ServiceCardList from "../../organisms/ServiceCardList/ServiceCardList"
 
 const Strengths = ({ sectionId }) => {

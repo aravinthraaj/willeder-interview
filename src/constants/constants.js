@@ -1,6 +1,6 @@
-import imgSrc1 from "../assests/images/img1.png"
-import imgSrc2 from "../assests/images/img2.png"
-import imgSrc3 from "../assests/images/img3.png"
+import imgSrc1 from "../assets/images/img1.png"
+import imgSrc2 from "../assets/images/img2.png"
+import imgSrc3 from "../assets/images/img3.png"
 
 export const notices = [
   { date: "2023.06.11", link: "#", text: "代表取締役社長交代のお知らせ" },

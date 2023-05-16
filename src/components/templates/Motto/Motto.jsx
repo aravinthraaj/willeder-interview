@@ -1,10 +1,12 @@
 import React from "react"
 import PropTypes from "prop-types"
-import Title from "../../atoms/Title/Title"
 import "./Motto.scss"
+
+import mpo_motto from "../../../assets/images/motto.png"
+
+import Title from "../../atoms/Title/Title"
 import Section from "../../atoms/Section/Section"
 import Text from "../../atoms/Text/Text"
-import mpo_motto from "../../../assests/images/motto.png"
 
 const Motto = ({ sectionId }) => {
   return (

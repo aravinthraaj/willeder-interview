@@ -1,7 +1,8 @@
 import React from "react"
 import PropTypes from "prop-types"
-import Button from "../../atoms/Button/Button"
 import "./HomeNavbar.scss"
+
+import Button from "../../atoms/Button/Button"
 
 const HomeNavbar = ({ sections }) => {
   return (

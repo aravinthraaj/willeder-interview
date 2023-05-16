@@ -1,6 +1,6 @@
 import React from "react"
-import "./NoticeItem.scss"
 import PropTypes from "prop-types"
+import "./NoticeItem.scss"
 
 import Title from "../../atoms/Title/Title"
 import Link from "../../atoms/Link/Link"

@@ -1,6 +1,8 @@
 import React from "react"
-import ServiceCard from "../../molecules/ServiceCard/ServiceCard"
 import "./ServiceCardList.scss"
+
+import ServiceCard from "../../molecules/ServiceCard/ServiceCard"
+
 import { serviceCardsData } from "../../../constants/constants"
 
 const ServiceCardList = () => {

@@ -1,5 +1,6 @@
 import React from "react"
 import "./Banner.scss"
+
 import Title from "../../atoms/Title/Title"
 import Section from "../../atoms/Section/Section"
 

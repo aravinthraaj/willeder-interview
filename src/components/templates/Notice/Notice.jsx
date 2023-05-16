@@ -1,11 +1,12 @@
 import React from "react"
 import PropTypes from "prop-types"
-import Section from "../../atoms/Section/Section"
-
-import NoticeList from "../../organisms/NoticeList/NoticeList"
-import Title from "../../atoms/Title/Title"
-import { notices } from "../../../constants/constants"
 import "./Notice.scss"
+
+import Section from "../../atoms/Section/Section"
+import Title from "../../atoms/Title/Title"
+import NoticeList from "../../organisms/NoticeList/NoticeList"
+
+import { notices } from "../../../constants/constants"
 
 const Notice = ({ sectionId }) => {
   return (

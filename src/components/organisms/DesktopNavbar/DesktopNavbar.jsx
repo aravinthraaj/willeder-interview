@@ -1,10 +1,12 @@
 import React from "react"
-import logo from "../../../assests/images/logo-dark.png"
-import { navLinks } from "../../../constants/constants"
 
+import logo from "../../../assets/images/logo-dark.png"
+
+import Button from "../../atoms/Button/Button"
 import Link from "../../atoms/Link/Link"
 import Text from "../../atoms/Text/Text"
-import Button from "../../atoms/Button/Button"
+
+import { navLinks } from "../../../constants/constants"
 
 const DesktopNavbar = () => {
   return (

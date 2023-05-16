@@ -1,9 +1,12 @@
-import React, { useState } from "react"
-import "./MobileNavbar.scss"
-import Text from "../../atoms/Text/Text"
-import logo from "../../../assests/images/logo-dark.png"
-import { ReactComponent as BurgerMenu } from "../../../assests/icons/burger-menu.svg"
-import { ReactComponent as Contact } from "../../../assests/icons/contact.svg"
+import React, { useState } from "react";
+
+import logo from "../../../assets/images/logo-dark.png";
+import { ReactComponent as BurgerMenu } from "../../../assets/icons/burger-menu.svg";
+import { ReactComponent as Contact } from "../../../assets/icons/contact.svg";
+
+import Text from "../../atoms/Text/Text";
+
+import "./MobileNavbar.scss";
 
 const MobileNavbar = () => {
   const [isOpen, setIsOpen] = useState(false)
@@ -20,7 +23,7 @@ const MobileNavbar = () => {
         </div>
         <div className="button-wrapper">
           <div className="contact">
-            <Contact width={22} height={22}/>
+            <Contact width={22} height={22} />
           </div>
           <div className="menu-wrapper">
             <div onClick={handleMenuClick} className="menu">

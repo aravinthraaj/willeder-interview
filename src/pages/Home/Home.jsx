@@ -1,4 +1,5 @@
 import React from "react"
+
 import Banner from "../../components/templates/Banner/Banner"
 import HomeNavbar from "../../components/templates/HomeNavbar/HomeNavbar"
 import Footer from "../../components/templates/Footer/Footer"
@@ -6,6 +7,7 @@ import Motto from "../../components/templates/Motto/Motto"
 import Strengths from "../../components/templates/Strengths/Strengths"
 import WhoWeAre from "../../components/templates/WhoWeAre/WhoWeAre"
 import Notice from "../../components/templates/Notice/Notice"
+
 import { sections } from "../../constants/constants"
 
 const Home = () => {

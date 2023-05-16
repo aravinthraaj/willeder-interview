@@ -1,8 +1,10 @@
 import React from "react"
+import Logo from "../../../assets/images/logo-light.png"
 import "./Footer.scss"
+
 import Text from "../../atoms/Text/Text"
 import Link from "../../atoms/Link/Link"
-import Logo from "../../../assests/images/logo-light.png"
+
 import { footerLink } from "../../../constants/constants"
 
 const Footer = () => {
