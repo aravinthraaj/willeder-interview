@@ -1,4 +1,5 @@
 import React from "react"
+import PropTypes from "prop-types";
 import Section from "../../atoms/Section/Section"
 import Title from "../../atoms/Title/Title"
 import Text from "../../atoms/Text/Text"
@@ -16,5 +17,8 @@ const WhoWeAre = ({ sectionId }) => {
     </Section>
   )
 }
+WhoWeAre.propTypes = {
+  sectionId: PropTypes.string.isRequired,
+};
 
 export default WhoWeAre

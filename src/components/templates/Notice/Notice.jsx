@@ -1,5 +1,7 @@
 import React from "react"
+import PropTypes from "prop-types"
 import Section from "../../atoms/Section/Section"
+
 import NoticeList from "../../organisms/NoticeList/NoticeList"
 import Title from "../../atoms/Title/Title"
 import { notices } from "../../../constants/constants"
@@ -14,6 +16,10 @@ const Notice = ({ sectionId }) => {
       <NoticeList notices={notices} />
     </Section>
   )
+}
+
+Notice.propTypes = {
+  sectionId: PropTypes.string.isRequired,
 }
 
 export default Notice

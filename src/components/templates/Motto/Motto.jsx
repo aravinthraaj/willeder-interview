@@ -1,4 +1,5 @@
 import React from "react"
+import PropTypes from "prop-types"
 import Title from "../../atoms/Title/Title"
 import "./Motto.scss"
 import Section from "../../atoms/Section/Section"
@@ -17,6 +18,10 @@ const Motto = ({ sectionId }) => {
       <img src={mpo_motto} alt="MPO Motto" />
     </Section>
   )
+}
+
+Motto.propTypes = {
+  sectionId: PropTypes.string.isRequired,
 }
 
 export default Motto

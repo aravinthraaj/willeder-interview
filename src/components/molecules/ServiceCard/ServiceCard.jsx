@@ -1,7 +1,9 @@
 import React from "react"
+import PropTypes from "prop-types"
+import "./ServiceCard.scss"
+
 import Title from "../../atoms/Title/Title"
 import Text from "../../atoms/Text/Text"
-import "./ServiceCard.scss"
 
 const ServiceCard = ({ image, title, description, subTitle }) => {
   return (
@@ -26,5 +28,12 @@ const ServiceCard = ({ image, title, description, subTitle }) => {
     </div>
   )
 }
+
+ServiceCard.propTypes = {
+  image: PropTypes.string.isRequired,
+  title: PropTypes.string.isRequired,
+  description: PropTypes.string.isRequired,
+  subTitle: PropTypes.string.isRequired,
+};
 
 export default ServiceCard

@@ -1,4 +1,5 @@
 import React from "react"
+import PropTypes from "prop-types";
 import "./Tite.scss"
 
 const Title = ({ size, children, ...rest }) => {
@@ -19,5 +20,9 @@ const Title = ({ size, children, ...rest }) => {
       return <h1 {...rest}>{children}</h1>
   }
 }
+Title.propTypes = {
+  size: PropTypes.oneOf([1, 2, 3, 4, 5, 6]),
+  children: PropTypes.node.isRequired,
+};
 
 export default Title

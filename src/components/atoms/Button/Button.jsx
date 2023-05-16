@@ -1,4 +1,5 @@
 import React from "react"
+import PropTypes from "prop-types"
 import "./Button.scss"
 
 const Button = ({
@@ -19,5 +20,14 @@ const Button = ({
     </button>
   )
 }
+
+Button.propTypes = {
+  variant: PropTypes.oneOf(["filled", "outlined"]),
+  size: PropTypes.oneOf(["small", "medium", "large"]),
+  borderRadius: PropTypes.string,
+  children: PropTypes.node.isRequired,
+  color: PropTypes.string
+}
+
 
 export default Button
