@@ -12,13 +12,24 @@
   &-date {
     margin: 10px;
   }
+  a{
+    &-text {
+      margin: 10px;
+      color: $secondary-color;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      text-decoration: underline;
+      cursor: pointer;
+    }
+  }
   &-text {
     margin: 10px;
     color: $secondary-color;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-    text-decoration: underline;
+    // text-decoration: underline;
     cursor: pointer;
 
 

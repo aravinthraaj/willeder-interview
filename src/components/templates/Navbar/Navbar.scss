@@ -1,4 +1,4 @@
-@import '../../../styles/global.scss';
+@import "../../../styles/global.scss";
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -24,23 +24,19 @@
     list-style: none;
     margin: 0;
     padding: 0;
-
-    li {
-      margin-right: 82px;
-
-      &:last-child {
-        margin-right: 0;
-      }
-
-      a {
-        color: $secondary-color;
-        text-decoration: none;
-        font-weight: 500;
-        transition: all 0.2s ease-in-out;
-      }
+    a {
+      color: $secondary-color;
+      text-decoration: none;
     }
-  }
-
-  &__right {
+    a:first-of-type {
+      text-decoration: underline;
+    }
+    a:last-of-type > .list {
+      margin-right: 0;
+    }
+    .list {
+      margin-right: 82px;
+      font-weight: 500;
+    }
   }
 }

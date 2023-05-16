@@ -3,33 +3,24 @@ import "./Footer.scss"
 import Text from "../../atoms/Text/Text"
 import Link from "../../atoms/Link/Link"
 import Logo from "../../../assests/images/logo-light.png"
+import { footerLink } from "../../../constants/constants"
 
 const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer__wrapper">
         <div className="footer__links">
-          <Text size="sm">
-            <Link>会社概要</Link>
-          </Text>
-          {/* <a href="会社概要" style={{textDecoration:"none"}}>
-          <h6 style={{borderBottom:" 1px solid black",paddingBottom:"0px"}}>会社概要</h6>
-        </a> */}
-          <Text size="sm">
-            <Link>事業内容</Link>
-          </Text>
-          <Text size="sm">
-            <Link>よくある質問</Link>
-          </Text>
-          <Text size="sm">
-            <Link>サイトマップ</Link>
-          </Text>
-          <Text size="sm">
-            <Link>個人情報保護の姿勢</Link>
-          </Text>
-          <Text size="sm">
-            <Link>リンク</Link>
-          </Text>
+          {footerLink.map((list) => {
+            return (
+              <>
+                <Link href={list.link}>
+                  <Text size="sm" key={list.text}>
+                    {list.text}
+                  </Text>
+                </Link>
+              </>
+            )
+          })}
         </div>
         <div className="footer__container">
           <div className="logo">

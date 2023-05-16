@@ -1,7 +1,6 @@
-import imgSrc1 from '../assests/images/img1.png'
-import imgSrc2 from '../assests/images/img2.png'
-import imgSrc3 from '../assests/images/img3.png'
-
+import imgSrc1 from "../assests/images/img1.png"
+import imgSrc2 from "../assests/images/img2.png"
+import imgSrc3 from "../assests/images/img3.png"
 
 export const notices = [
   { date: "2023.06.11", link: "#", text: "代表取締役社長交代のお知らせ" },
@@ -16,7 +15,6 @@ export const notices = [
     text: "【テクノトランスファーinかわさき2019】に出展します　※このイベントは終了しました",
   },
 ]
-
 
 export const serviceCardsData = [
   {
@@ -40,3 +38,19 @@ export const serviceCardsData = [
 ]
 
 export const sections = ["MPOとは", "MPOの強み", "MPOとTLOとの違い", "お知らせ"]
+
+export const footerLink = [
+  { text: "会社概要", link: "/" },
+  { text: "事業内容", link: "/" },
+  { text: "よくある質問", link: "/" },
+  { text: "サイトマップ", link: "/" },
+  { text: "個人情報保護の姿勢", link: "/" },
+  { text: "リンク", link: "/" },
+]
+
+export const navLinks = [
+  { text: "HOME", link: "/" },
+  { text: "事業内容", link: "/" },
+  { text: "研究者紹介", link: "/" },
+  { text: "会社概要", link: "/" },
+]
