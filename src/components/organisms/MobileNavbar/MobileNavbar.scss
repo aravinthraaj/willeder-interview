@@ -4,6 +4,7 @@
   position: sticky;
   top: 0px;
   z-index: 1;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 
   .nav-wrapper {
     display: flex;
@@ -27,8 +28,6 @@
         height: 100%;
         padding: 9px 12px;
         display: flex;
-
-
       }
       .menu-wrapper {
         background-color: $secondary-color;
