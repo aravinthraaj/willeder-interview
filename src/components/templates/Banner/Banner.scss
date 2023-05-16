@@ -1,7 +1,7 @@
 @import "../../../styles/global.scss";
 
 .banner {
-  height: 100vh;
+  height: 78vh;
   letter-spacing: 0.1rem;
   @include fadeIn;
   padding: 20px;
@@ -39,7 +39,7 @@
     justify-content: center;
     align-items: center;
     position: relative;
-    height: 100vh;
+    height: 77vh;
     letter-spacing: 0.2rem;
     text-shadow: 0px 0px 3px rgba(0, 40, 193, 0.75);
     @include fadeIn;
