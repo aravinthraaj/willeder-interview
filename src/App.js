@@ -8,10 +8,9 @@ import Motto from "./components/templates/Motto/Motto"
 import Strengths from "./components/templates/Strengths/Strengths"
 import WhoWeAre from "./components/templates/WhoWeAre/WhoWeAre"
 import Notice from "./components/templates/Notice/Notice"
+import { sections } from "./constants/constants"
 
 const App = () => {
-  const sections = ["MPOとは", "MPOの強み", "MPOとTLOとの違い", "お知らせ"]
-
   return (
     <div className="App">
       <Navbar />
