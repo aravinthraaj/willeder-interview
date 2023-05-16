@@ -12,17 +12,6 @@
   &-date {
     margin: 10px;
   }
-  a{
-    &-text {
-      margin: 10px;
-      color: $secondary-color;
-      white-space: nowrap;
-      overflow: hidden;
-      text-overflow: ellipsis;
-      text-decoration: underline;
-      cursor: pointer;
-    }
-  }
   &-text {
     margin: 10px;
     color: $secondary-color;
@@ -67,6 +56,11 @@
       -webkit-line-clamp: 1;
       margin: 0px;
       white-space: unset;
+      a{
+        position: relative;
+      top: -5px;
+        font-size: $font-size-md-mobile;
+      }
     }
   }
 }

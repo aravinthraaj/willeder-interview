@@ -13,6 +13,9 @@ const NoticeItem = ({ date, link, text }) => {
       <Title size={4} className="notice-text">
         <Link href={link}>{text}</Link>
       </Title>
+      {/* <Link className="text-trim">
+        <Title size={4} href={link} className="notice-text">{text}</Title>
+      </Link> */}
     </div>
   )
 }
