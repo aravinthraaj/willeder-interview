@@ -1,0 +1,30 @@
+@import "../../../styles/global.scss";
+
+section {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 0px;
+  .container{
+    max-width: 840px;
+  }
+}
+
+section:nth-child(even) {
+  background-color: rgba($primary-color, 0.7);
+}
+section:nth-child(odd) {
+  background-color: rgba($primary-color, 0.8);
+}
+
+
+@media (max-width:400px){
+  section{
+    padding: 96px 0px;
+  }
+  .container{
+    padding: 0px 15px;
+  }
+}

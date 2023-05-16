@@ -1,0 +1,16 @@
+.strengths{
+  .title{
+    margin-bottom: 84px;
+  }
+}
+
+@media (max-width:400px){
+  .strengths{
+    .title{
+      margin-bottom: 60px;
+    }
+    .container{
+      padding: 0px 10px;
+    }
+  }
+}

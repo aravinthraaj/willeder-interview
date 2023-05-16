@@ -1,10 +1,27 @@
 import React from "react"
 import "./styles/global.scss"
+import Navbar from "./components/templates/Navbar/Navbar"
+import Banner from "./components/templates/Banner/Banner"
+import HomeNavbar from "./components/templates/HomeNavbar/HomeNavbar"
+import Footer from "./components/templates/Footer/Footer"
+import Motto from "./components/templates/Motto/Motto"
+import Strengths from "./components/templates/Strengths/Strengths"
+import WhoWeAre from "./components/templates/WhoWeAre/WhoWeAre"
+import Notice from "./components/templates/Notice/Notice"
 
 const App = () => {
+  const sections = ["MPOとは", "MPOの強み", "MPOとTLOとの違い", "お知らせ"]
+
   return (
     <div className="App">
-      <h1>Willeder Interview</h1>
+      <Navbar />
+      <Banner />
+      <HomeNavbar sections={sections} />
+      <Motto sectionId={"MPOとは"} />
+      <Strengths sectionId={"MPOの強み"} />
+      <WhoWeAre sectionId={"MPOとTLOとの違い"} />
+      <Notice sectionId={"お知らせ"} />
+      <Footer />
     </div>
   )
 }

@@ -1,0 +1,30 @@
+import React from "react"
+import Title from "../../atoms/Title/Title"
+import Text from "../../atoms/Text/Text"
+import "./ServiceCard.scss"
+
+const ServiceCard = ({ image, title, description, subTitle }) => {
+  return (
+    <div className="service-card">
+      <div className="wrapper">
+        <div className="service-card-img-container">
+          <img src={image} alt={title} />
+        </div>
+        <div className="title-wrapper">
+          <Title size={3} className="title">
+            {title}
+          </Title>
+          <Title size={3} className="sub-title">
+            {subTitle}
+          </Title>
+        </div>
+      </div>
+
+      <Text size="sm" className="text">
+        {description}
+      </Text>
+    </div>
+  )
+}
+
+export default ServiceCard

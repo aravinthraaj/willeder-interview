@@ -1,0 +1,23 @@
+@import "../../../styles/global.scss";
+.homeNavbar {
+  background-color: rgba($primary-color, 0.8);
+  position: relative;
+  width: 100%;
+  padding: 50px 0px;
+  display: flex;
+  gap: 13px;
+  align-items: center;
+  justify-content: center;
+  font-size: $font-size-sm-desktop;
+}
+
+
+@media screen and (max-width: 400px) {
+  .homeNavbar{
+    & > button{
+      display: none;
+    }
+  padding: 35px 0px;
+
+  }
+}

@@ -1,0 +1,26 @@
+.whoweare {
+  .title {
+    margin-bottom: 84px;
+  }
+  .text {
+    margin-bottom: 84px;
+  }
+  img {
+    position: relative;
+    height: auto;
+    object-fit: cover;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 400px) {
+  .whoweare {
+    .title {
+      margin-bottom: 60px;
+      letter-spacing: 0.1em;
+    }
+    .text {
+      margin-bottom: 60px;
+    }
+  }
+}

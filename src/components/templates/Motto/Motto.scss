@@ -1,0 +1,22 @@
+.motto {
+  text-align: center;
+  .title,
+  .text {
+    margin-bottom: 84px;
+  }
+  .text{
+    letter-spacing: 0.1em;
+  }
+  img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 400px) {
+  .motto {
+    .title,
+    .text {
+      margin-bottom: 50px;
+    }
+  }
+}

@@ -1,0 +1,58 @@
+@import "../../../styles/global.scss";
+
+.text {
+  &--xs {
+    font-size: $font-size-xs-desktop;
+    letter-spacing: 0.1em;
+  }
+  &--sm {
+    font-size: $font-size-sm-desktop;
+    letter-spacing: 0.1em;
+  }
+  &--md {
+    font-size: $font-size-md-desktop;
+    letter-spacing: 0.1em;
+  }
+  &--lg {
+    font-size: $font-size-lg-desktop;
+    letter-spacing: 0.1em;
+  }
+  &--xl {
+    font-size: $font-size-xl-desktop;
+    letter-spacing: 0.1em;
+  }
+  &--xxl {
+    font-size: $font-size-xxl-desktop;
+    letter-spacing: 0.1em;
+  }
+}
+
+@media (max-width:400px){
+  .text {
+    &--xs {
+      font-size: $font-size-xs-mobile;
+      letter-spacing: 0.1em;
+    }
+    &--sm {
+      font-size: $font-size-sm-mobile;
+      letter-spacing: 0.1em;
+    }
+    &--md {
+      font-size: $font-size-md-mobile;
+      letter-spacing: 0.1em;
+    }
+    &--lg {
+      font-size: $font-size-lg-mobile;
+      letter-spacing: 0.1em;
+    }
+    &--xl {
+      font-size: $font-size-xl-mobile;
+      letter-spacing: 0.1em;
+    }
+    &--xxl {
+      font-size: $font-size-xxl-desktop;
+      letter-spacing: 0.1em;
+    }
+  }
+  
+}

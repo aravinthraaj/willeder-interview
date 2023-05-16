@@ -1,0 +1,75 @@
+@import "../../../styles/global.scss";
+.mobile-navbar {
+  background-color: $primary-color;
+  position: sticky;
+  top: 0px;
+  z-index: 1;
+
+  .nav-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 15px;
+    .logo {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 17px;
+      img {
+        height: 100%;
+      }
+    }
+    .button-wrapper {
+      display: flex;
+      align-items: center;
+      .contact {
+        background-color: $primary-color;
+        height: 100%;
+        padding: 9px 12px;
+        display: flex;
+
+
+      }
+      .menu-wrapper {
+        background-color: $secondary-color;
+        height: 100%;
+        padding: 9px;
+        display: flex;
+
+        .menu {
+          // background-color: red;
+          // background-color: $secondary-color;
+        }
+      }
+    }
+  }
+  .links-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: $secondary-color;
+
+    .mobile-navbar__links {
+      display: none;
+      color: $primary-color;
+      width: 100%;
+      a {
+        text-decoration: none;
+      }
+      .list {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-top: 1px solid $primary-color;
+        width: 100%;
+        padding: 20px 0px;
+      }
+
+      &.open {
+        display: block;
+        width: 100vw;
+      }
+    }
+  }
+}

@@ -1,0 +1,58 @@
+@import "../../../styles/global.scss";
+.notice {
+  width: 100%;
+  &-item {
+    position: relative;
+    display: flex;
+    gap: 60px;
+    color: black;
+    font-size: $font-size-md-desktop;
+    margin-bottom: 50px;
+  }
+  &-date {
+    margin: 10px;
+  }
+  &-text {
+    margin: 10px;
+    color: $secondary-color;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-decoration: underline;
+
+    a {
+      position: relative;
+      top: -2px;
+      color: $secondary-color;
+      margin: 0px;
+    }
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .notice {
+    width: 100%;
+
+    &-item {
+      gap: 10px;
+      padding: 10px;
+      margin-bottom: 20px;
+    }
+    .mobile {
+      font-size: $font-size-xs-mobile;
+    }
+
+    &-date {
+      margin: 0px;
+    }
+    &-text {
+      display: -webkit-box;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 1;
+      margin: 0px;
+      white-space: unset;
+    }
+  }
+}

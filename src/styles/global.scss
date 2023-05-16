@@ -1,3 +1,16 @@
 @import "fonts";
 @import "variables";
 @import "animations";
+@import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css");
+
+html{
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url(../assests/images/background.png);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+
+}
