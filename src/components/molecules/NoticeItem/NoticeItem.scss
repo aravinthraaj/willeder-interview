@@ -19,12 +19,15 @@
     overflow: hidden;
     text-overflow: ellipsis;
     text-decoration: underline;
+    cursor: pointer;
+
 
     a {
       position: relative;
       top: -2px;
       color: $secondary-color;
       margin: 0px;
+
     }
   }
 }
